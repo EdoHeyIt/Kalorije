@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/EdoHeyIt/kalorije.git/static/css/main.762219c0.css",
-    "main.js": "/EdoHeyIt/kalorije.git/static/js/main.03d17436.js",
-    "static/media/HomePhoto.jpg": "/EdoHeyIt/kalorije.git/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
-    "static/media/Vegetables.jpg": "/EdoHeyIt/kalorije.git/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
-    "static/media/Trening.jpg": "/EdoHeyIt/kalorije.git/static/media/Trening.243717d55dbcaf26f396.jpg",
-    "static/media/Apples.jpg": "/EdoHeyIt/kalorije.git/static/media/Apples.65f291c657d8f5b04e62.jpg",
-    "static/media/KalorijeFood.jpg": "/EdoHeyIt/kalorije.git/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
-    "static/media/BmiHome.jpg": "/EdoHeyIt/kalorije.git/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
-    "static/media/KalorijeOpis.jpg": "/EdoHeyIt/kalorije.git/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
-    "static/media/BmrHome.jpg": "/EdoHeyIt/kalorije.git/static/media/BmrHome.f0e110f140f4516895d5.jpg",
-    "static/media/AktivnostiSlika.jpg": "/EdoHeyIt/kalorije.git/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
-    "index.html": "/EdoHeyIt/kalorije.git/index.html",
-    "main.762219c0.css.map": "/EdoHeyIt/kalorije.git/static/css/main.762219c0.css.map",
-    "main.03d17436.js.map": "/EdoHeyIt/kalorije.git/static/js/main.03d17436.js.map"
+    "main.css": "/edoheyit/kalorije.git/static/css/main.762219c0.css",
+    "main.js": "/edoheyit/kalorije.git/static/js/main.3b1df1bf.js",
+    "static/media/HomePhoto.jpg": "/edoheyit/kalorije.git/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
+    "static/media/Vegetables.jpg": "/edoheyit/kalorije.git/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
+    "static/media/Trening.jpg": "/edoheyit/kalorije.git/static/media/Trening.243717d55dbcaf26f396.jpg",
+    "static/media/Apples.jpg": "/edoheyit/kalorije.git/static/media/Apples.65f291c657d8f5b04e62.jpg",
+    "static/media/KalorijeFood.jpg": "/edoheyit/kalorije.git/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
+    "static/media/BmiHome.jpg": "/edoheyit/kalorije.git/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
+    "static/media/KalorijeOpis.jpg": "/edoheyit/kalorije.git/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
+    "static/media/BmrHome.jpg": "/edoheyit/kalorije.git/static/media/BmrHome.f0e110f140f4516895d5.jpg",
+    "static/media/AktivnostiSlika.jpg": "/edoheyit/kalorije.git/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
+    "index.html": "/edoheyit/kalorije.git/index.html",
+    "main.762219c0.css.map": "/edoheyit/kalorije.git/static/css/main.762219c0.css.map",
+    "main.3b1df1bf.js.map": "/edoheyit/kalorije.git/static/js/main.3b1df1bf.js.map"
   },
   "entrypoints": [
     "static/css/main.762219c0.css",
-    "static/js/main.03d17436.js"
+    "static/js/main.3b1df1bf.js"
   ]
 }
