@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/edoheyit/kalorije.git/static/css/main.762219c0.css",
-    "main.js": "/edoheyit/kalorije.git/static/js/main.3b1df1bf.js",
-    "static/media/HomePhoto.jpg": "/edoheyit/kalorije.git/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
-    "static/media/Vegetables.jpg": "/edoheyit/kalorije.git/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
-    "static/media/Trening.jpg": "/edoheyit/kalorije.git/static/media/Trening.243717d55dbcaf26f396.jpg",
-    "static/media/Apples.jpg": "/edoheyit/kalorije.git/static/media/Apples.65f291c657d8f5b04e62.jpg",
-    "static/media/KalorijeFood.jpg": "/edoheyit/kalorije.git/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
-    "static/media/BmiHome.jpg": "/edoheyit/kalorije.git/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
-    "static/media/KalorijeOpis.jpg": "/edoheyit/kalorije.git/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
-    "static/media/BmrHome.jpg": "/edoheyit/kalorije.git/static/media/BmrHome.f0e110f140f4516895d5.jpg",
-    "static/media/AktivnostiSlika.jpg": "/edoheyit/kalorije.git/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
-    "index.html": "/edoheyit/kalorije.git/index.html",
-    "main.762219c0.css.map": "/edoheyit/kalorije.git/static/css/main.762219c0.css.map",
-    "main.3b1df1bf.js.map": "/edoheyit/kalorije.git/static/js/main.3b1df1bf.js.map"
+    "main.css": "/Kalorije/static/css/main.367b60d4.css",
+    "main.js": "/Kalorije/static/js/main.8d674918.js",
+    "static/media/HomePhoto.jpg": "/Kalorije/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
+    "static/media/Vegetables.jpg": "/Kalorije/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
+    "static/media/Trening.jpg": "/Kalorije/static/media/Trening.243717d55dbcaf26f396.jpg",
+    "static/media/Apples.jpg": "/Kalorije/static/media/Apples.65f291c657d8f5b04e62.jpg",
+    "static/media/KalorijeFood.jpg": "/Kalorije/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
+    "static/media/BmiHome.jpg": "/Kalorije/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
+    "static/media/KalorijeOpis.jpg": "/Kalorije/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
+    "static/media/BmrHome.jpg": "/Kalorije/static/media/BmrHome.f0e110f140f4516895d5.jpg",
+    "static/media/AktivnostiSlika.jpg": "/Kalorije/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
+    "index.html": "/Kalorije/index.html",
+    "main.367b60d4.css.map": "/Kalorije/static/css/main.367b60d4.css.map",
+    "main.8d674918.js.map": "/Kalorije/static/js/main.8d674918.js.map"
   },
   "entrypoints": [
-    "static/css/main.762219c0.css",
-    "static/js/main.3b1df1bf.js"
+    "static/css/main.367b60d4.css",
+    "static/js/main.8d674918.js"
   ]
 }
