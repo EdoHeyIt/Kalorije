@@ -1,0 +1,27 @@
+@import "./Calculators.scss";
+
+.CalculatorBmi {
+  @include CalculatorCss();
+  height: 314px;
+}
+
+@media screen and (max-width: 600px) {
+  .CalculatorBmi {
+    @include CalculatorCss600();
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .CalculatorBmi {
+    @include CalculatorCss420();
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .CalculatorBmi {
+    @include CalculatorCss359();
+    height: 325px;
+  }
+}

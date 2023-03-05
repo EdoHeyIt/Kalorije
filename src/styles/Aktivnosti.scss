@@ -1,0 +1,198 @@
+@import "./Variables.scss";
+@import "./Calculators.scss";
+
+.AktivnostiPage {
+  @include pageBasics();
+
+  .AktivnostiHome {
+    padding: 50px 0 0 0;
+    margin: 0 10px;
+    color: $clr-strongPrimary;
+    display: flex;
+    .AktivnostiText {
+      flex-grow: 1;
+      max-width: 504px;
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        color: $clr-dark;
+        padding: 12px 0 2px 0;
+      }
+
+      p {
+        font-size: 42px;
+        padding-top: 35px;
+        text-align: center;
+      }
+    }
+
+    .SpanAkt {
+      @include SpanHome();
+    }
+
+    .AktivnostiPhoto {
+      flex-grow: 1;
+      max-width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .OpisAktivnosti {
+    padding-top: 45px;
+    margin: 0 10px;
+
+    img {
+      padding: 15px 0 7px 0;
+      max-width: 800px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .AktivnostiPage {
+    @include PageBasics960();
+
+    .AktivnostiHome {
+      padding: 10px 0 0 0;
+      margin: 0 8px;
+
+      .AktivnostiText {
+        h1 {
+          font-size: 24px;
+          padding-top: 13px;
+        }
+
+        p {
+          font-size: 28px;
+        }
+      }
+
+      .SpanAkt {
+        padding: 3px 10px 3px 10px;
+      }
+
+      .AktivnostiPhoto {
+        img {
+          padding-top: 20px;
+        }
+      }
+    }
+
+    .OpisAktivnosti {
+      padding-top: 35px;
+      margin: 0 8px;
+      img {
+        padding: 10px 0 0 0;
+        max-width: 650px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .AktivnostiPage {
+    @include PageBasics600();
+
+    .AktivnostiHome {
+      padding: 0px;
+      display: block;
+      margin: auto;
+
+      .AktivnostiText {
+        margin: auto;
+        h1 {
+          font-size: 22px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 15px;
+        }
+      }
+      .AktivnostiPhoto {
+        margin: auto;
+        img {
+          padding-top: 5px;
+          max-width: 300px;
+        }
+      }
+    }
+
+    .OpisAktivnosti {
+      padding-top: 30px;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .AktivnostiPage {
+    @include PageBasics420();
+
+    .AktivnostiHome {
+      padding: 10px 0 0 0;
+      margin: 0 5px;
+
+      .AktivnostiText {
+        margin: auto;
+        h1 {
+          font-size: 20px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 15px;
+        }
+      }
+      .AktivnostiPhoto {
+        margin: auto;
+        img {
+          padding-top: 0px;
+          max-width: 300px;
+        }
+      }
+    }
+
+    .OpisAktivnosti {
+      padding-top: 30px;
+      margin: 0 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .AktivnostiPage {
+    @include PageBasics359();
+
+    .AktivnostiHome {
+      padding: 0px;
+      margin: 0 8px;
+
+      .AktivnostiText {
+        margin: auto;
+        h1 {
+          font-size: 18px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 24px;
+          font-weight: bolder;
+          padding-top: 15px;
+        }
+      }
+      .AktivnostiPhoto {
+        margin: auto;
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}

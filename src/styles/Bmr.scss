@@ -1,0 +1,205 @@
+@import "./Variables.scss";
+
+.BmrPage {
+  @include pageBasics();
+
+  .BmrHome {
+    padding: 50px 0 0 0;
+    margin: 0 10px;
+    color: $clr-strongPrimary;
+    display: flex;
+  }
+
+  .BmrText {
+    flex-grow: 1;
+    max-width: 504px;
+    h1 {
+      font-size: 34px;
+      font-weight: bold;
+      color: $clr-dark;
+      padding: 35px 0 0px 0;
+    }
+
+    p {
+      font-size: 42px;
+      text-align: center;
+    }
+  }
+
+  .SpanBmr {
+    @include SpanHome();
+  }
+
+  .BmrPhoto {
+    flex-grow: 1;
+    max-width: 450px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.OpisBmr {
+  padding-top: 60px;
+  margin: 0 10px;
+
+  img {
+    padding: 7px 0;
+    max-width: 650px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .BmrPage {
+    @include PageBasics960();
+
+    .BmrHome {
+      padding: 10px 0 0 0;
+      margin: 0 8px;
+
+      .BmrText {
+        h1 {
+          font-size: 26px;
+          padding-top: 40px;
+        }
+
+        p {
+          font-size: 28px;
+          padding-top: 5px;
+        }
+      }
+
+      .BmrPhoto {
+        max-width: 280px;
+        img {
+          padding-top: 20px;
+        }
+      }
+    }
+
+    .OpisBmr {
+      padding-top: 35px;
+      margin: 0 8px;
+      img {
+        padding: 25px 0 0 0;
+        max-width: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BmrPage {
+    @include PageBasics600();
+
+    .BmrHome {
+      padding-top: 10px;
+      display: block;
+      margin: auto;
+
+      .BmrText {
+        margin: auto;
+        h1 {
+          font-size: 22px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 15px;
+        }
+      }
+
+      .SpanBmr {
+        padding: 3px 10px 3px 10px;
+      }
+
+      .BmrPhoto {
+        margin: auto;
+        img {
+          padding-top: 16px;
+          max-width: 300px;
+        }
+      }
+    }
+
+    .OpisBmr {
+      padding-top: 25px;
+      margin: 0 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .BmrPage {
+    @include PageBasics420();
+
+    .BmrHome {
+      padding: 20px 0 0 0;
+      margin: 0 5px;
+
+      .BmrText {
+        margin: auto;
+        h1 {
+          font-size: 20px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 15px;
+        }
+      }
+      .BmrPhoto {
+        margin: auto;
+        img {
+          padding-top: 15px;
+          max-width: 300px;
+        }
+      }
+    }
+
+    .OpisBmr {
+      padding-top: 30px;
+      margin: 0 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .BmrPage {
+    @include PageBasics359();
+
+    .BmrHome {
+      padding: 0px;
+      margin: 0 5px;
+
+      .BmrText {
+        margin: auto;
+        h1 {
+          font-size: 18px;
+          padding: 15px 0 0 0;
+        }
+
+        p {
+          font-size: 24px;
+          font-weight: bolder;
+          padding-top: 10px;
+        }
+      }
+      .BmrPhoto {
+        margin: auto;
+        padding-top: 3px;
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+    .OpisBmr {
+      margin: 0 5px;
+    }
+  }
+}
