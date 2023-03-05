@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kalorije/static/css/main.367b60d4.css",
-    "main.js": "/Kalorije/static/js/main.ea86db56.js",
+    "main.js": "/Kalorije/static/js/main.af046fcb.js",
     "static/media/HomePhoto.jpg": "/Kalorije/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
     "static/media/Vegetables.jpg": "/Kalorije/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
     "static/media/Trening.jpg": "/Kalorije/static/media/Trening.243717d55dbcaf26f396.jpg",
@@ -13,10 +13,10 @@
     "static/media/AktivnostiSlika.jpg": "/Kalorije/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
     "index.html": "/Kalorije/index.html",
     "main.367b60d4.css.map": "/Kalorije/static/css/main.367b60d4.css.map",
-    "main.ea86db56.js.map": "/Kalorije/static/js/main.ea86db56.js.map"
+    "main.af046fcb.js.map": "/Kalorije/static/js/main.af046fcb.js.map"
   },
   "entrypoints": [
     "static/css/main.367b60d4.css",
-    "static/js/main.ea86db56.js"
+    "static/js/main.af046fcb.js"
   ]
 }
