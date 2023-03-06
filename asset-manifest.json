@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Kalorije/Kalorije/static/css/main.367b60d4.css",
-    "main.js": "/Kalorije/Kalorije/static/js/main.817272f6.js",
-    "static/media/HomePhoto.jpg": "/Kalorije/Kalorije/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
-    "static/media/Vegetables.jpg": "/Kalorije/Kalorije/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
-    "static/media/Trening.jpg": "/Kalorije/Kalorije/static/media/Trening.243717d55dbcaf26f396.jpg",
-    "static/media/Apples.jpg": "/Kalorije/Kalorije/static/media/Apples.65f291c657d8f5b04e62.jpg",
-    "static/media/KalorijeFood.jpg": "/Kalorije/Kalorije/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
-    "static/media/BmiHome.jpg": "/Kalorije/Kalorije/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
-    "static/media/KalorijeOpis.jpg": "/Kalorije/Kalorije/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
-    "static/media/BmrHome.jpg": "/Kalorije/Kalorije/static/media/BmrHome.f0e110f140f4516895d5.jpg",
-    "static/media/AktivnostiSlika.jpg": "/Kalorije/Kalorije/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
-    "index.html": "/Kalorije/Kalorije/index.html",
-    "main.367b60d4.css.map": "/Kalorije/Kalorije/static/css/main.367b60d4.css.map",
-    "main.817272f6.js.map": "/Kalorije/Kalorije/static/js/main.817272f6.js.map"
+    "main.css": "/Kalorije/static/css/main.367b60d4.css",
+    "main.js": "/Kalorije/static/js/main.af046fcb.js",
+    "static/media/HomePhoto.jpg": "/Kalorije/static/media/HomePhoto.f61236413ab76d9e6093.jpg",
+    "static/media/Vegetables.jpg": "/Kalorije/static/media/Vegetables.f77edf4fc4be420a800e.jpg",
+    "static/media/Trening.jpg": "/Kalorije/static/media/Trening.243717d55dbcaf26f396.jpg",
+    "static/media/Apples.jpg": "/Kalorije/static/media/Apples.65f291c657d8f5b04e62.jpg",
+    "static/media/KalorijeFood.jpg": "/Kalorije/static/media/KalorijeFood.f0bb1da2f975a35ab888.jpg",
+    "static/media/BmiHome.jpg": "/Kalorije/static/media/BmiHome.9ad7dac0ff7993a3809d.jpg",
+    "static/media/KalorijeOpis.jpg": "/Kalorije/static/media/KalorijeOpis.c1912cf8416069e27fd8.jpg",
+    "static/media/BmrHome.jpg": "/Kalorije/static/media/BmrHome.f0e110f140f4516895d5.jpg",
+    "static/media/AktivnostiSlika.jpg": "/Kalorije/static/media/AktivnostiSlika.cf5bd1865dc45b2b6077.jpg",
+    "index.html": "/Kalorije/index.html",
+    "main.367b60d4.css.map": "/Kalorije/static/css/main.367b60d4.css.map",
+    "main.af046fcb.js.map": "/Kalorije/static/js/main.af046fcb.js.map"
   },
   "entrypoints": [
     "static/css/main.367b60d4.css",
-    "static/js/main.817272f6.js"
+    "static/js/main.af046fcb.js"
   ]
 }
