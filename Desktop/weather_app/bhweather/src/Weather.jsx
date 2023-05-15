@@ -53,7 +53,7 @@ export const Weather = () => {
                 type="text"
                 placeholder="Lokacija"
                 ref={inputRef}
-                className=" h-7 border-none p-2 rounded-xl font-bold text-black text-xl text-center"
+                className=" w-[220px] h-7 border-none p-2 rounded-xl font-bold text-black text-xl text-center"
               />
               <button onClick={findCity}>
                 <img className="w-6 h-6 ml-1" src={search} alt="search" />
