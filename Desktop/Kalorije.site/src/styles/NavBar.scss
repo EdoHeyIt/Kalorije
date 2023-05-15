@@ -1,0 +1,139 @@
+@import "./Variables.scss";
+
+.navbar {
+  background-color: $clr-primary;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19.2px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  -webkit-tap-highlight-color: transparent;
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+  }
+
+  .nav-logo {
+    flex-grow: 1;
+
+    .nav-logo-link {
+      color: $clr-secondary;
+      align-items: center;
+      margin-left: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 27.2px;
+      flex-grow: 1;
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 32px;
+  }
+
+  .nav-links {
+    color: $clr-secondary;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    font-size: 20.8px;
+  }
+
+  .nav-item {
+    line-height: 30px;
+    margin-right: 8px;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 0;
+      background: transparent;
+      transition: width 0.7s ease, background-color 0.5s ease;
+    }
+
+    &:hover:after {
+      width: 100%;
+      background: $clr-secondary;
+    }
+  }
+
+  .nav-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 50px;
+
+    .nav-container {
+      height: 50px;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: -150%;
+      opacity: 1;
+      transition: all 1s ease;
+    }
+
+    .nav-logo-link {
+      margin-left: 10px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .nav-menu.active {
+      background: $clr-primary;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .nav-links {
+      padding: 40px 0;
+      width: 100%;
+      display: table;
+      font-weight: bold;
+    }
+
+    .nav-item {
+      margin-right: 0;
+      line-height: 1px;
+      &:active {
+        background-color: $clr-lightPrimary;
+      }
+    }
+
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: -14px;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 27px;
+      cursor: pointer;
+      color: $clr-secondary;
+    }
+  }
+}

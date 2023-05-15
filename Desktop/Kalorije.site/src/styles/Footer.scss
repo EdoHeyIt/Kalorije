@@ -1,0 +1,32 @@
+@import "./Variables.scss";
+
+.Footer {
+  min-height: 80px;
+  width: 100%;
+  background-color: $clr-dark;
+  margin-top: 40px;
+  text-align: center;
+  h3 {
+    color: $clr-secondary;
+    font-size: 24px;
+  }
+  p {
+    color: $clr-secondary;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Footer {
+    min-height: 60px;
+    margin-top: 30px;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 17px;
+      padding-top: 5px;
+    }
+  }
+}

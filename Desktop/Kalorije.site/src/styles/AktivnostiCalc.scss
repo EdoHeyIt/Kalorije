@@ -1,0 +1,27 @@
+@import "./Calculators.scss";
+
+.CalculatorAkt {
+  @include CalculatorCss();
+  height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .CalculatorAkt {
+    @include CalculatorCss600();
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .CalculatorAkt {
+    @include CalculatorCss420();
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .CalculatorAkt {
+    @include CalculatorCss359();
+    height: 375px;
+  }
+}

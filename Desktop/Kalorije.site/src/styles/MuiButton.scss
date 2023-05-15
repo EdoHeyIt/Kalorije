@@ -1,0 +1,28 @@
+.HomeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  Button {
+    width: 85px;
+    height: 32px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .HomeButton {
+    margin-top: 16px;
+    Button {
+      width: 80px;
+      height: 30px;
+      font-size: 19px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .HomeButton {
+    margin-top: 15px;
+  }
+}

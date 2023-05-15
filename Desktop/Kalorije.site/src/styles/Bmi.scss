@@ -1,0 +1,167 @@
+@import "./Variables.scss";
+
+.BmiPage {
+  @include pageBasics();
+
+  .BmiHome {
+    padding: 50px 0 0 0;
+    margin: 0 10px;
+    color: $clr-strongPrimary;
+    display: flex;
+
+    .BmiText {
+      padding-top: 10px;
+      flex-grow: 1;
+      max-width: 504px;
+      h1 {
+        font-size: 34px;
+        font-weight: bold;
+        color: $clr-dark;
+        padding: 7px 0 2px 0;
+      }
+
+      p {
+        font-size: 42px;
+        text-align: center;
+      }
+    }
+
+    .SpanBmi {
+      @include SpanHome();
+    }
+
+    .BmiPhoto {
+      flex-grow: 1;
+      max-width: 430px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .OpisBmi {
+    padding-top: 60px;
+    margin: 0 10px;
+
+    img {
+      padding: 25px 0 7px 0;
+      max-width: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .BmiPage {
+    @include PageBasics960();
+
+    .BmiHome {
+      padding: 10px 0 0 0;
+      margin: 0 8px;
+
+      .BmiText {
+        h1 {
+          font-size: 26px;
+          padding: 8px 0 0 0;
+        }
+
+        p {
+          font-size: 28px;
+          padding-top: 28px;
+        }
+      }
+
+      .BmiPhoto {
+        max-width: 250px;
+        img {
+          padding-top: 30px;
+        }
+      }
+    }
+
+    .OpisBmi {
+      padding-top: 35px;
+      margin: 0 8px;
+      img {
+        padding: 25px 0 0 0;
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BmiPage {
+    @include PageBasics600();
+
+    .BmiHome {
+      padding-top: 10px;
+      display: block;
+      margin: auto;
+
+      .BmiText {
+        margin: auto;
+        text-align: center;
+        h1 {
+          font-size: 28px;
+          padding: 10px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 0px;
+        }
+      }
+      .BmiPhoto {
+        margin: auto;
+        img {
+          padding-top: 13px;
+          max-width: 250px;
+        }
+      }
+    }
+
+    .OpisBmi {
+      padding-top: 25px;
+      margin: 0 8px;
+      img {
+        padding: 15px 0 0 0;
+        max-width: 285px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .BmiPage {
+    @include PageBasics359();
+
+    .BmiHome {
+      padding: 0px;
+      margin: 0 5px;
+
+      .BmiText {
+        margin: auto;
+        h1 {
+          font-size: 23px;
+          padding: 15px 0 0 0;
+        }
+
+        p {
+          font-size: 25px;
+          font-weight: bolder;
+        }
+      }
+      .BmiPhoto {
+        margin: auto;
+        padding-top: 9px;
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+    .OpisBmi {
+      margin: 0 5px;
+    }
+  }
+}

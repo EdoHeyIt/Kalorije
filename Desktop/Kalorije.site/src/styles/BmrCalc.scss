@@ -1,0 +1,35 @@
+@import "./Calculators.scss";
+
+.CalculatorBmr {
+  @include CalculatorCss();
+  height: 440px;
+
+  .rowOne {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CalculatorBmr {
+    @include CalculatorCss600();
+    height: 450px;
+
+    .rowOne {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .CalculatorBmr {
+    @include CalculatorCss420();
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .CalculatorBmr {
+    @include CalculatorCss359();
+    height: 425px;
+  }
+}

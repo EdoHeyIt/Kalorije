@@ -1,0 +1,256 @@
+@import "./Variables.scss";
+
+.HomePage {
+  @include pageBasics();
+
+  .Home {
+    display: flex;
+    padding: 80px 0 0 0;
+    margin: 0 10px;
+
+    .HomeText {
+      flex-grow: 1;
+      color: $clr-strongPrimary;
+
+      h1 {
+        text-align: left;
+        font-size: 38px;
+        font-weight: bold;
+        color: $clr-dark;
+      }
+
+      p {
+        font-size: 42px;
+        padding-top: 20px;
+        font-weight: 350;
+      }
+    }
+
+    .HomePhoto {
+      flex-grow: 1;
+      max-width: 400px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .Opis {
+    padding-top: 45px;
+    margin: 0 10px;
+
+    img {
+      max-width: 450px;
+    }
+  }
+
+  .Ishrana {
+    padding-top: 45px;
+    margin: 0 10px;
+    img {
+      padding: 22px 0 15px 0;
+      max-width: 600px;
+    }
+  }
+
+  .darkText {
+    @include SpanHome();
+    font-weight: bold;
+    font-size: 33px;
+  }
+
+  .textLink {
+    color: $clr-strongPrimary;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .HomePage {
+    @include PageBasics960();
+
+    .Home {
+      display: flex;
+      padding: 35px 0 0 0;
+      margin: 0 8px;
+
+      .HomeText {
+        h1 {
+          font-size: 23px;
+        }
+        p {
+          font-size: 25px;
+          padding-top: 20px;
+          font-weight: 500;
+        }
+      }
+
+      .HomePhoto {
+        max-width: 250px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .Opis {
+      padding-top: 30px;
+      margin: 0 8px;
+
+      img {
+        max-width: 400px;
+      }
+    }
+
+    .Ishrana {
+      padding-top: 30px;
+      margin: 0 8px;
+      img {
+        padding: 35px 0 0 0;
+        max-width: 400px;
+      }
+    }
+
+    .darkText {
+      font-size: 19px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .HomePage {
+    @include PageBasics600();
+
+    .Home {
+      padding: 20px 0 0 0;
+      margin: auto;
+      display: block;
+
+      .HomeText {
+        padding-top: 5px;
+        h1 {
+          font-size: 27px;
+          text-align: center;
+        }
+        p {
+          font-size: 25px;
+          font-weight: 500;
+          text-align: center;
+          padding-top: 15px;
+        }
+      }
+
+      .HomePhoto {
+        max-width: 250px;
+        margin: auto;
+        padding-top: 22px;
+      }
+    }
+
+    .Opis {
+      padding-top: 30px;
+      margin: 0 8px;
+
+      img {
+        max-width: 400px;
+      }
+    }
+
+    .Ishrana {
+      padding-top: 30px;
+      margin: 0 8px;
+      img {
+        padding: 35px 0 0 0;
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .HomePage {
+    @include PageBasics420();
+
+    .Home {
+      margin: 0 5px;
+      padding: 20px 0 0 0;
+
+      .HomeText {
+        h1 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 24px;
+          padding-top: 10px;
+          font-weight: 500;
+        }
+      }
+
+      .HomePhoto {
+        padding: 21px 0 0 0;
+        max-width: 240px;
+      }
+    }
+    .Opis {
+      padding-top: 30px;
+      margin: 0 5px;
+
+      img {
+        max-width: 350px;
+      }
+    }
+
+    .Ishrana {
+      padding-top: 30px;
+      margin: 0 5px;
+      img {
+        padding: 35px 0 0 0;
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .HomePage {
+    @include PageBasics359();
+
+    .Home {
+      .HomeText {
+        h1 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+
+      .HomePhoto {
+        max-width: 230px;
+        padding: 19px 0 0 0;
+      }
+    }
+    .Opis {
+      padding-top: 15px;
+
+      img {
+        max-width: 310px;
+      }
+    }
+
+    .Ishrana {
+      padding-top: 30px;
+      img {
+        padding: 35px 0 0 0;
+        max-width: 310px;
+      }
+    }
+
+    .darkText {
+      font-size: 17px;
+    }
+  }
+}
